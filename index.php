@@ -669,7 +669,7 @@
 
 <div id="TokenInfoDiv" class="m-2">
 
-<div class="text-xs font-weight-bold text-primary   mb-1 lang" key="Token Address BUSD">Token Address BUSD</div>
+<div class="text-xs font-weight-bold text-primary   mb-1 lang" key="Token Address">Token Address</div>
 <input class="form-control form-control-user" type="text" id="TokenAddress" oninput="ActiveTokenContract()" aria-describedby="emailHelp" placeholder="for example:0x122..aef">
 
 <small id="balanceOf" class="text-muted"  ></small>
@@ -958,7 +958,7 @@
         'Ethereum': 'Ethereum',
         'Binance': 'Binance',
         'Huobi': 'Huobi',
-        'Token Address BUSD': 'Token Address BUSD',
+        'Token Address': 'Token Address BUSD',
         'Send same amount to each address': 'Send same amount to each address',
         'Use CSV file': 'Use CSV file',
         'Send amount': 'Send amount',
@@ -973,7 +973,7 @@
         'Ethereum': '以太坊链',
         'Binance': '币安链',
         'Huobi': '火币链',
-        'Token Address BUSD': '代币地址',
+        'Token Address': '代币地址',
         'Send same amount to each address': '发送相同的数量到每个地址',
         'Use CSV file': '使用CSV文件',
         'Send amount': '发送数量',
@@ -990,7 +990,7 @@
         'Ethereum': 'Ethereum',
         'Binance': 'Binance',
         'Huobi': 'Huobi',
-        'Token Address BUSD': 'Адрес токена',
+        'Token Address': 'Адрес токена',
         'Send same amount to each address': 'Отправить одинаковую сумму на каждый адрес',
         'Use CSV file': 'Использовать CSV-файл',
         'Send amount': 'Отправить сумму',
@@ -1007,7 +1007,7 @@
         'Ethereum': 'Ethereum',
         'Binance': 'Binance',
         'Huobi': 'Huobi',
-        'Token Address BUSD': '토큰 주소',
+        'Token Address': '토큰 주소',
         'Send same amount to each address': '각 주소로 동일한 금액 보내기',
         'Use CSV file': 'CSV 파일 사용',
         'Send amount': '송금 금액',
