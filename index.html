@@ -1079,13 +1079,7 @@ console.log("change language..");
 
     function copiarAlPortapapeles1(id_elemento) {
                 
-                var delay = alertify.get('notifier','delay');
-                 alertify.set('notifier','delay', 6);
-                 alertify.set('notifier','position', 'top-right');
-                 alertify.success('El Link de Referir Usuario está en portapapeles, ahora puedes compartirlo con quien quieras.');
-                 alertify.set('notifier','delay', delay);
-                
-                
+              
                 
           var aux = document.createElement("input");
           aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
