@@ -143,7 +143,7 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light rounded  bg-nav-white topbar m-3 static-top shadow">
 
-<div><img src="img/bee.png" width="33" height="33"> <b class="m-1 text-dark"> <?php echo "Hola";?> </b></div>
+<div><img src="img/bee.png" width="33" height="33"> <b class="m-1 text-dark">Bee Sender </b></div>
                     <!-- Sidebar Toggle (Topbar) -->
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
