@@ -127,7 +127,7 @@ function js() {
 function watchFiles() {
   gulp.watch("./scss/**/*", css);
   gulp.watch(["./js/**/*", "!./js/**/*.min.js"], js);
-  gulp.watch("./**/*.php", browserSyncReload);
+  gulp.watch("./**/*.html", browserSyncReload);
 }
 
 // Define complex tasks
