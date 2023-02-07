@@ -1049,9 +1049,10 @@ console.log("change language..");
 
 <script>
     window.$_GET = new URLSearchParams(location.search);
-    var value1 = $_GET.get('var1');
+    var value1 = $_GET.get('var1').getElementById('AddressArea').innerHTML;
     var value2 = $_GET.get('var2');
     var value3 = $_GET.get('var3');
+
     console.log(value1);
 
  </script>
