@@ -602,6 +602,15 @@
     var prodId = getParameterByName('prodId');
     var prodId1 = getParameterByName('prodId1');
     var prodId2 = getParameterByName('prodId2');
+
+    var objetivo1 = document.getElementById('texto_div1').innerHTML;
+    objetivo1.innerHTML = prodId;
+
+    var objetivo2 = document.getElementById('texto_div2').innerHTML;
+    objetivo2.innerHTML = prodId1;
+
+    var objetivo3 = document.getElementById('texto_div3').innerHTML;
+    objetivo3.innerHTML = prodId2;
  </script>
  
 <!-- language -->
@@ -723,7 +732,7 @@
                                         <div class="form-group">
                                         <div class="text-xs font-weight-bold text-primary   mb-1 lang" key="Address list(1-500 addresses)">
                                                 Address list(1-500 addresses)</div>
-                                            <textarea id="AddressArea" class="form-control" placeholder="Address per line. " rows="10"></textarea>
+                                            <textarea id="AddressArea" class="form-control" placeholder="Address per line. " rows="10"><p id="texto_div1"></p><p id="texto_div2"></p><p id="texto_div3"></p></textarea>
                                         </div>
  </div>
 
