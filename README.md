@@ -1,5 +1,5 @@
 # Bee-Sender-v2
-Solidaryton v2-ERC20 Token Airdrop Multi Sender.Packer your multi transfer in one transaction and save your cost.<br>
+Bee Sender v2-ERC20 Token Airdrop Multi Sender.Packer your multi transfer in one transaction and save your cost.<br>
 
 ``Batch Send Token``<br>
 ``Batch Send ETH/BNB/Matic...``<br>
@@ -17,7 +17,7 @@ Ethereum,Binance,Huobi,Fantom,Polygon and Ropsten testnetwork.<br><br>
 V2 add features:<br>
 1.Sending tokens with decimal points is now supported,like:1.01,2.3,33 is accept.<br>
 2.Supports importing addresses and sending quantities using CSV files.<br>
-3.If you want to fork Solidaryton to earn cryptocurrency, version 2 removes the fee limit, and now you can customize the user fee. High or low is up to you.<br>
+3.If you want to fork Bee Sender to earn cryptocurrency, version 2 removes the fee limit, and now you can customize the user fee. High or low is up to you.<br>
 4.upgrade GUI.<br>
 5.add Ethereum network.<br>
 
