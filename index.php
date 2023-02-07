@@ -188,7 +188,7 @@
 
 
 <li class=" my-auto mx-2 shadow ">
-<a href="https://youtu.be/HDyPbMbA-Og" target="blank"  ><button class="btn btn-primary">fdfdfdf</button></a>
+<a href="https://youtu.be/HDyPbMbA-Og" target="blank"  ><button class="btn btn-primary">How to use</button></a>
 
 </li>
 <li class="my-auto mx-2 shadow">
@@ -556,7 +556,7 @@
                             <!-- Illustrations -->
                             <div class="card shadow mb-4">
                                 <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary lang" key="Token MultiSender">Token MultiSender</h6>
+                                    <h6 class="m-0 font-weight-bold text-primary lang" key="Token MultiSender">Tokendfdfdf MultiSender</h6>
                                 </div>
                                 <div class="card-body">
                                     <div class="text-center  ">
