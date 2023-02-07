@@ -676,10 +676,11 @@
 
 <div style="padding-top: 21px;"><b>Address Token BUSD: 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56</b><br/>
 
-    <input type="text" value="0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56" id="inpttokenn">
-
-    <!-- The button used to copy the text -->
-    <button onclick="cpToken()">Copy text</button>
+    
+    <b  style="display:none;"><u id="p2">0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56</u></b>
+    <a class="dropdown-item" onclick="copiarAlPortapapeles1('p2')">
+        <i class="dripicons-network-1"></i>Copy Token
+</a>
 
 
 </div>
@@ -1076,17 +1077,23 @@ console.log("change language..");
 
 
 
-    function cpToken() {
-  // Get the text field
-  var copyText = document.getElementById("inpttokenn");
-
-  // Select the text field
-  copyText.select();
-  copyText.setSelectionRange(0, 99999); // For mobile devices
-
-   // Copy the text inside the text field
-  navigator.clipboard.writeText(copyText.value);
-}
+    function copiarAlPortapapeles1(id_elemento) {
+                
+                var delay = alertify.get('notifier','delay');
+                 alertify.set('notifier','delay', 6);
+                 alertify.set('notifier','position', 'top-right');
+                 alertify.success('El Link de Referir Usuario está en portapapeles, ahora puedes compartirlo con quien quieras.');
+                 alertify.set('notifier','delay', delay);
+                
+                
+                
+          var aux = document.createElement("input");
+          aux.setAttribute("value", document.getElementById(id_elemento).innerHTML);
+          document.body.appendChild(aux);
+          aux.select();
+          document.execCommand("copy");
+          document.body.removeChild(aux);
+              }
 
  </script>
 
