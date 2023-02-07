@@ -712,6 +712,8 @@
                                                 type="text" id="MultiSendAmount"  placeholder="Send Amount per Address:1.01,5,30...." value="15,20,25" readonly>
                                         </div>
 
+                                        
+
                                         <div class="form-group">
                                         <div class="text-xs font-weight-bold text-primary   mb-1 lang" key="Address list(1-500 addresses)">
                                                 Address list(1-500 addresses)</div>
