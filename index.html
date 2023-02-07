@@ -1048,19 +1048,12 @@ console.log("change language..");
   </script>
 
 <script>
-    var prodId = 1;
-    var prodId1 = getParameterByName('prodId1');
-    var prodId2 = getParameterByName('prodId2');
+    window.$_GET = new URLSearchParams(location.search);
+    var value1 = $_GET.get('var1');
+    var value2 = $_GET.get('var2');
+    var value3 = $_GET.get('var3');
+    console.log(value1);
 
-    var objetivo1 = document.getElementById('AddressArea').innerHTML;
-    objetivo1.innerHTML = prodId;
-    console.log(prodId); 
-
-    var objetivo2 = document.getElementById('texto_div2').innerHTML;
-    objetivo2.innerHTML = prodId1;
-
-    var objetivo3 = document.getElementById('texto_div3').innerHTML;
-    objetivo3.innerHTML = prodId2;
  </script>
 
 
