@@ -670,7 +670,7 @@
 <div id="TokenInfoDiv" class="m-2">
 
 <div class="text-xs font-weight-bold text-primary   mb-1 lang" key="Token Address BUSD">Token Address BUSD</div>
-<input class="form-control form-control-user" type="text" id="TokenAddress" oninput="ActiveTokenContract()" aria-describedby="emailHelp" placeholder="for example:0x122..aef">
+<input class="form-control form-control-user" type="text" id="TokenAddress" oninput="ActiveTokenContract()" aria-describedby="emailHelp" placeholder="for example:0x122..aef" value="0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56" readonly>
 
 <small id="balanceOf" class="text-muted"  ></small>
 
