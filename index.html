@@ -676,10 +676,10 @@
 
 <div><b>Address Token BUSD: 0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56</b><br/>
 
-    <input type="text" value="Hello World" id="myInput">
+    <input type="text" value="0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56" id="inpttokenn">
 
     <!-- The button used to copy the text -->
-    <button onclick="myFunction()">Copy text</button>
+    <button onclick="cpToken()">Copy text</button>
 
 
 </div>
@@ -1076,9 +1076,9 @@ console.log("change language..");
 
 
 
-    function myFunction() {
+    function cpToken() {
   // Get the text field
-  var copyText = document.getElementById("myInput");
+  var copyText = document.getElementById("inpttokenn");
 
   // Select the text field
   copyText.select();
@@ -1086,9 +1086,6 @@ console.log("change language..");
 
    // Copy the text inside the text field
   navigator.clipboard.writeText(copyText.value);
-
-  // Alert the copied text
-  alert("Copied the text: " + copyText.value);
 }
 
  </script>
