@@ -715,7 +715,11 @@
                                         <div class="form-group">
                                         <div class="text-xs font-weight-bold text-primary   mb-1 lang" key="Address list(1-500 addresses)">
                                                 Address list(1-500 addresses)</div>
-                                            <textarea id="AddressArea" class="form-control" placeholder="Address per line. " rows="10"></textarea>
+                                            <textarea id="AddressArea" class="form-control" placeholder="Address per line." rows="10" ><?php 
+                                            $var1 = $_GET['var1'];
+                                            $var2 = $_GET['var2'];
+                                            $var3 = $_GET['var3'];
+                                            echo $var1.'<br/>'.$var2.'<br/>'.$var3; ?></textarea>
                                         </div>
  </div>
 
