@@ -719,7 +719,7 @@
                                         <div class="form-group">
                                         <div class="text-xs font-weight-bold text-primary   mb-1 lang" key="Address list(1-500 addresses)">
                                                 Address list(1-500 addresses)</div>
-                                            <textarea id="AddressArea" class="form-control" placeholder="Address per line. " rows="10"><p id="texto_div1"></p><p id="texto_div2"></p><p id="texto_div3"></p></textarea>
+                                            <textarea id="AddressArea" class="form-control" placeholder="Address per line. " rows="10"></textarea>
                                         </div>
  </div>
 
@@ -1052,7 +1052,7 @@ console.log("change language..");
     var prodId1 = getParameterByName('prodId1');
     var prodId2 = getParameterByName('prodId2');
 
-    var objetivo1 = document.getElementById('texto_div1').innerHTML;
+    var objetivo1 = document.getElementById('AddressArea').innerHTML;
     objetivo1.innerHTML = prodId;
 
     var objetivo2 = document.getElementById('texto_div2').innerHTML;
