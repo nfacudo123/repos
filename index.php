@@ -958,7 +958,7 @@
         'Ethereum': 'Ethereum',
         'Binance': 'Binance',
         'Huobi': 'Huobi',
-        'Token Address': 'Token Address BUSD',
+        'Token Address': 'Token Address',
         'Send same amount to each address': 'Send same amount to each address',
         'Use CSV file': 'Use CSV file',
         'Send amount': 'Send amount',
