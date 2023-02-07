@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-<!--Bee sender 2.1-->
-    <title  > Bee Sender-ERC20 Token Multi Sender.Packer your multi transfer in one transaction and save your cost.Ethereum,Binance,Polygon...</title>
+<!--Solidaryton 2.1-->
+    <title  > Solidaryton-ERC20 Token Multi Sender.Packer your multi transfer in one transaction and save your cost.Ethereum,Binance,Polygon...</title>
 
 
 
@@ -143,7 +143,7 @@
                 <!-- Topbar -->
                 <nav class="navbar navbar-expand navbar-light rounded  bg-nav-white topbar m-3 static-top shadow">
 
-<div><img src="img/bee.png" width="33" height="33"> <b class="m-1 text-dark">Bee Sender </b></div>
+<div><img src="img/bee.png" width="33" height="33"> <b class="m-1 text-dark">Solidaryton </b></div>
                     <!-- Sidebar Toggle (Topbar) -->
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
@@ -566,7 +566,7 @@
 
 
 									<div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-4">Bee Sender</h1>
+                                        <h1 class="h4 text-gray-900 mb-4">Solidaryton</h1>
                                     </div>
                                     <div class="text-center">
                                      
@@ -831,7 +831,7 @@
                     <h5> </h5>
                     <ul class="nav flex-column">
 <li class="nav-item mb-2"><a href="https://dapp404.com/Token-Factory" class="nav-link p-0 text-dark ">Token Factory</a></li>
-<li class="nav-item mb-2"><a href="https://dapp404.com/Bee-Sender/" class="nav-link p-0 text-dark ">Bee Sender</a></li>
+<li class="nav-item mb-2"><a href="https://dapp404.com/Bee-Sender/" class="nav-link p-0 text-dark ">Solidaryton</a></li>
 <li class="nav-item mb-2"><a href="https://dapp404.com/Blockchain-To-Metamask/" class="nav-link p-0  text-dark">Chain List</a></li>
 
 
@@ -958,7 +958,7 @@
 <script type="text/javascript">
     var arrLang = {
       'en': {
-        'SiteTitle': 'Bee Sender-ERC20 Token Multi Sender.Packer your multi transfer in one transaction and save your cost.',
+        'SiteTitle': 'Solidaryton-ERC20 Token Multi Sender.Packer your multi transfer in one transaction and save your cost.',
         'Ethereum': 'Ethereum',
         'Binance': 'Binance',
         'Huobi': 'Huobi',
@@ -973,7 +973,7 @@
         'Send Token': 'Batch Send Token'
       },
       'zh': {
-        'SiteTitle': 'Bee Sender-同时发送代币和本币给多个地址',
+        'SiteTitle': 'Solidaryton-同时发送代币和本币给多个地址',
         'Ethereum': '以太坊链',
         'Binance': '币安链',
         'Huobi': '火币链',
@@ -990,7 +990,7 @@
       },
 
       'ru': {
-        'SiteTitle': 'Bee Sender-ERC20 Token Multi Sender. Упакуйте мультиперевод в одну транзакцию и сэкономьте на затратах.',
+        'SiteTitle': 'Solidaryton-ERC20 Token Multi Sender. Упакуйте мультиперевод в одну транзакцию и сэкономьте на затратах.',
         'Ethereum': 'Ethereum',
         'Binance': 'Binance',
         'Huobi': 'Huobi',
@@ -1007,7 +1007,7 @@
 
 
       'kr': {
-        'SiteTitle': 'Bee Sender-ERC20 Token Multi Sender.Packer는 하나의 트랜잭션으로 다중 전송을 수행하고 비용을 절약합니다.',
+        'SiteTitle': 'Solidaryton-ERC20 Token Multi Sender.Packer는 하나의 트랜잭션으로 다중 전송을 수행하고 비용을 절약합니다.',
         'Ethereum': 'Ethereum',
         'Binance': 'Binance',
         'Huobi': 'Huobi',
